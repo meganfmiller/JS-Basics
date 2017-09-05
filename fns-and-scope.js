@@ -31,7 +31,10 @@ function getName() {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+function welcome() {
+var name = getName();
+alert("Welcome, " + name);
+}
 
 //////////////////PROBLEM 4////////////////////
 
@@ -41,7 +44,7 @@ function getName() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+// Arguments are what get passed inside the function. Parameters look at the arguments to know what to use in the function. They're like placeholders.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -51,7 +54,8 @@ function getName() {
 
 
   //Answer Here
-
+// False, NaN, null, undefined, 0, " "
+// I think you put an exclamation mark before whatever goes in the parethesis of an if statment. Not totally sure on that one.
 
 
 //////////////////PROBLEM 6////////////////////
@@ -61,15 +65,18 @@ function getName() {
 //Create a function called myName that returns your name
 
   //Code Here
-
+function myName() {
+  return "Megan";
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+var newMyName = myName();
 
 //Now alert the result of invoking newMyName
-
+alert(newMyName());
 
 
 //////////////////PROBLEM 7////////////////////
